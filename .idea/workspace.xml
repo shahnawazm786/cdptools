@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utility/ApplicationDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utility/ReadPropertiesFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +207,35 @@
       <option name="project" value="LOCAL" />
       <updated>1716710052248</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cucumber">
+      <created>1716710434268</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710434268</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cucumber">
+      <created>1716710443044</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710443044</updated>
+    </task>
+    <task id="LOCAL-00024" summary="cucumber">
+      <created>1716710449420</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710449420</updated>
+    </task>
+    <task id="LOCAL-00025" summary="cucumber">
+      <created>1716710454345</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710454345</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
