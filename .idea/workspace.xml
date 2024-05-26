@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utility/ArraysProcessing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utility/ApplicationDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/ApplicationDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +399,28 @@
       <option name="project" value="LOCAL" />
       <updated>1716739567877</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="cucumber">
+      <created>1716740089976</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1716740089976</updated>
+    </task>
+    <task id="LOCAL-00047" summary="cucumber">
+      <created>1716740095273</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1716740095273</updated>
+    </task>
+    <task id="LOCAL-00048" summary="cucumber">
+      <created>1716740099819</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1716740099819</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
