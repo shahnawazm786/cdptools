@@ -15,7 +15,8 @@ private ChromeOptions options;
     public WebDriver getDriver(EBrowser browserName){
     switch (browserName){
         case CHROME:
-            System.out.println("CHROME");
+            options=new ChromeOptions();
+
             break;
         case FIREFOX:
             System.out.println("Firefox");
