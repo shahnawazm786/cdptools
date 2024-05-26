@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="cdp tools example">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+    <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="cucumber">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utility/ApplicationDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utility/ReadPropertiesFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +175,42 @@
       <option name="project" value="LOCAL" />
       <updated>1716709415266</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="cucumber">
+      <created>1716709960931</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716709960931</updated>
+    </task>
+    <task id="LOCAL-00018" summary="cucumber">
+      <created>1716709969058</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716709969058</updated>
+    </task>
+    <task id="LOCAL-00019" summary="cucumber">
+      <created>1716709976134</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716709976134</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cucumber">
+      <created>1716709980410</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716709980410</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cucumber">
+      <created>1716710052248</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710052248</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +226,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cdp tools example" />
-    <option name="LAST_COMMIT_MESSAGE" value="cdp tools example" />
+    <MESSAGE value="cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber" />
   </component>
 </project>
