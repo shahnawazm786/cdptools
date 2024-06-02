@@ -80,13 +80,6 @@
       <option name="presentableId" value="Default" />
       <updated>1715794011414</updated>
     </task>
-    <task id="LOCAL-00010" summary="cdp tools example">
-      <created>1716707995863</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1716707995863</updated>
-    </task>
     <task id="LOCAL-00011" summary="cdp tools example">
       <created>1716708001428</created>
       <option name="number" value="00011" />
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717233177140</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="cucumber">
+      <created>1717264974856</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1717264974857</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
