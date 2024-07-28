@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/locators/IHomePageLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/HomePageStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/homepage.feature" afterDir="false" />
+    <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="selenium cucumber project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utility/SeleniumFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,48 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715794011414</updated>
-    </task>
-    <task id="LOCAL-00035" summary="cucumber">
-      <created>1716714954266</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1716714954266</updated>
-    </task>
-    <task id="LOCAL-00036" summary="cucumber">
-      <created>1716714960433</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1716714960433</updated>
-    </task>
-    <task id="LOCAL-00037" summary="cucumber">
-      <created>1716738285634</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1716738285634</updated>
-    </task>
-    <task id="LOCAL-00038" summary="cucumber">
-      <created>1716739424303</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1716739424303</updated>
-    </task>
-    <task id="LOCAL-00039" summary="cucumber">
-      <created>1716739435851</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1716739435851</updated>
-    </task>
-    <task id="LOCAL-00040" summary="cucumber">
-      <created>1716739442635</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1716739442635</updated>
     </task>
     <task id="LOCAL-00041" summary="cucumber">
       <created>1716739448718</created>
@@ -446,7 +401,49 @@
       <option name="project" value="LOCAL" />
       <updated>1722176625931</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="selenium cucumber project">
+      <created>1722190945950</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1722190945950</updated>
+    </task>
+    <task id="LOCAL-00085" summary="selenium cucumber project">
+      <created>1722190952240</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1722190952240</updated>
+    </task>
+    <task id="LOCAL-00086" summary="selenium cucumber project">
+      <created>1722190958549</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1722190958549</updated>
+    </task>
+    <task id="LOCAL-00087" summary="selenium cucumber project">
+      <created>1722190963557</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1722190963557</updated>
+    </task>
+    <task id="LOCAL-00088" summary="selenium cucumber project">
+      <created>1722190971960</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1722190971960</updated>
+    </task>
+    <task id="LOCAL-00089" summary="selenium cucumber project">
+      <created>1722190976652</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1722190976652</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,6 +460,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cdp tools example" />
     <MESSAGE value="cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber" />
+    <MESSAGE value="selenium cucumber project" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium cucumber project" />
   </component>
 </project>
