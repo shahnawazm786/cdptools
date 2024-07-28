@@ -19,6 +19,7 @@ private ChromeOptions options;
     switch (browserName){
         case CHROME:
             options=new ChromeOptions();
+            System.out.println(ArraysProcessing.getChromeOptions());
             options.addArguments(ArraysProcessing.getChromeOptions());
             driver=new ChromeDriver(options);
             break;
