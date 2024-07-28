@@ -3,24 +3,37 @@ package steps;
 import io.cucumber.java.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import utility.ApplicationDriverManager;
+import utility.EBrowser;
+import utility.ReadPropertiesFileManager;
+
+import java.io.IOException;
 
 public class CucumberHooks {
     public static WebDriver driver;
     
     @Before
-    public void setup(){
-        System.out.println("@Before");
+    public void setup() throws IOException {
+        driver= new ApplicationDriverManager().getDriver(EBrowser.CHROME);
+        driver.get(ReadPropertiesFileManager.getValue("system.application.url"));
     }
     @BeforeStep
     public void beforeStepSetup(Scenario scenario){
-        System.out.println("@BeforeStep");
+        System.out.println(scenario.getName());
+        System.out.println(scenario.getLine());
+        System.out.println(scenario.getStatus());
+        System.out.println(scenario.getSourceTagNames());
+
     }
     @AfterStep
     public void afterSetupTearDown(Scenario scenario){
-        System.out.println("@AfterStep");
+        //System.out.println(scenario.getSourceTagNames());
     }
     @After
     public void tearDown(Scenario scenario){
-        System.out.println("@After");
+        if(driver!=null){
+        driver.manage().deleteAllCookies();
+        driver.quit();
+        }
     }
 }
