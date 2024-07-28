@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import utility.ApplicationDriverManager;
 import utility.EBrowser;
 import utility.ReadPropertiesFileManager;
-
 import java.io.IOException;
 
 public class CucumberHooks {
