@@ -7,4 +7,4 @@ Feature: Login Feature Test
     Then user redirect to user dashboard
     Examples:
     |username| |password|
-    |        | |        |
+    |Admin        | |admin123        |
