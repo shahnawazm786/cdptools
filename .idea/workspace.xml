@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814923d-1c41-4100-be77-b59ec32ae194" name="Changes" comment="cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CucumberHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/ApplicationDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/ApplicationDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataFiles/default.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
       <recent name="C:\weekly-classes\cpdtools\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Runs">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utility.Test" />
       <module name="cpdtools" />
@@ -71,8 +74,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cpdtools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runs" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runs" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -85,41 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715794011414</updated>
-    </task>
-    <task id="LOCAL-00014" summary="cdp tools example">
-      <created>1716709104441</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1716709104441</updated>
-    </task>
-    <task id="LOCAL-00015" summary="cdp tools example">
-      <created>1716709410784</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1716709410784</updated>
-    </task>
-    <task id="LOCAL-00016" summary="cdp tools example">
-      <created>1716709415266</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1716709415266</updated>
-    </task>
-    <task id="LOCAL-00017" summary="cucumber">
-      <created>1716709960931</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1716709960931</updated>
-    </task>
-    <task id="LOCAL-00018" summary="cucumber">
-      <created>1716709969058</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1716709969058</updated>
     </task>
     <task id="LOCAL-00019" summary="cucumber">
       <created>1716709976134</created>
@@ -429,7 +413,42 @@
       <option name="project" value="LOCAL" />
       <updated>1722172256663</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="cucumber">
+      <created>1722172531765</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1722172531765</updated>
+    </task>
+    <task id="LOCAL-00064" summary="cucumber">
+      <created>1722172536841</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1722172536841</updated>
+    </task>
+    <task id="LOCAL-00065" summary="cucumber">
+      <created>1722172543535</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1722172543535</updated>
+    </task>
+    <task id="LOCAL-00066" summary="cucumber">
+      <created>1722172551374</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1722172551375</updated>
+    </task>
+    <task id="LOCAL-00067" summary="cucumber">
+      <created>1722172556349</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1722172556349</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
