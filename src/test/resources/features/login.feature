@@ -1,4 +1,6 @@
+@login_feature
 Feature: Login Feature Test
+  @login
   Scenario Outline: Login with invalid credential
     Given user navigate login page of the application
     And user enter invalid "<username>" in user text box
