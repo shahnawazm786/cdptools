@@ -1,6 +1,7 @@
 package utility;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.IOException;
@@ -14,11 +15,12 @@ private ChromeOptions options;
      * @param browserName
      * @return
      */
-    public WebDriver getDriver(EBrowser browserName) throws IOException {
+    public  WebDriver getDriver(EBrowser browserName) throws IOException {
     switch (browserName){
         case CHROME:
             options=new ChromeOptions();
             options.addArguments(ArraysProcessing.getChromeOptions());
+            driver=new ChromeDriver(options);
             break;
         case FIREFOX:
             System.out.println("Firefox");
@@ -35,6 +37,6 @@ private ChromeOptions options;
     }
 
 
-    return null;
+    return driver;
     }
 }
