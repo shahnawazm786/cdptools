@@ -9,18 +9,18 @@ public class CucumberHooks {
     
     @Before
     public void setup(){
-
+        System.out.println("@Before");
     }
     @BeforeStep
     public void beforeStepSetup(Scenario scenario){
-
+        System.out.println("@BeforeStep");
     }
     @AfterStep
     public void afterSetupTearDown(Scenario scenario){
-
+        System.out.println("@AfterStep");
     }
     @After
     public void tearDown(Scenario scenario){
-
+        System.out.println("@After");
     }
 }
