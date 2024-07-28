@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 public class LoginStepDefinitions {
     @Given("user navigate login page of the application")
     public void userNavigateLoginPageOfTheApplication() {
-        System.out.println("Login application");
+
     }
 
     @And("user enter invalid {string} in user text box")
