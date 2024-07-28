@@ -2,7 +2,6 @@ package steps;
 
 import io.cucumber.java.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import utility.ApplicationDriverManager;
 import utility.EBrowser;
 import utility.ReadPropertiesFileManager;
@@ -19,15 +18,12 @@ public class CucumberHooks {
     }
     @BeforeStep
     public void beforeStepSetup(Scenario scenario){
+        //System.out.println(scenario.getLine());
         System.out.println(scenario.getName());
-        System.out.println(scenario.getLine());
-        System.out.println(scenario.getStatus());
-        System.out.println(scenario.getSourceTagNames());
-
     }
     @AfterStep
     public void afterSetupTearDown(Scenario scenario){
-        //System.out.println(scenario.getSourceTagNames());
+        System.out.println(scenario.getStatus().toString());
     }
     @After
     public void tearDown(Scenario scenario){
