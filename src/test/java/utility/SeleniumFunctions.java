@@ -11,17 +11,22 @@ import java.time.Duration;
 public class SeleniumFunctions {
     static WebDriverWait wait;
     static boolean flag=false;
-    public static void driverWait(WebDriver driver,By element,long time){
+    public static void waitTillVisibilityOfElement(WebDriver driver,By element,long time){
         wait=new WebDriverWait(driver, Duration.ofSeconds(time));
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
-    public static void driverWait(WebDriver driver, WebElement element, long time){
+    public static void waitTillVisibilityOfElement(WebDriver driver, WebElement element, long time){
         wait=new WebDriverWait(driver, Duration.ofSeconds(time));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-    public static boolean isDisplay(WebDriver driver, By element,long time){
-        driverWait(driver,element,time);
+    public static boolean isElementDisplay(WebDriver driver, By element,long time){
+        waitTillVisibilityOfElement(driver,element,time);
         flag=driver.findElement(element).isDisplayed();
         return flag;
     }
+    public static void waitUnitlElementVisibility(WebDriver driver,WebElement element,long time){
+        wait=new WebDriverWait(driver,Duration.ofSeconds(time));
+        wait.until(e->element.isDisplayed());
+    }
+
 }
