@@ -96,13 +96,6 @@
       <option name="presentableId" value="Default" />
       <updated>1715794011414</updated>
     </task>
-    <task id="LOCAL-00049" summary="cucumber">
-      <created>1716741352632</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1716741352632</updated>
-    </task>
     <task id="LOCAL-00050" summary="cucumber">
       <created>1716741358433</created>
       <option name="number" value="00050" />
@@ -439,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722306942937</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="selenium cucumber project">
+      <created>1722310342759</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1722310342759</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
