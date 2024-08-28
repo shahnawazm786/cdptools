@@ -36,8 +36,6 @@ private ChromeOptions options;
             System.out.println("CHROME");
 
     }
-
-
-    return driver;
+        return driver;
     }
 }
